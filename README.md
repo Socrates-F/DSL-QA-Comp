@@ -58,7 +58,32 @@ O projeto foi implementado seguindo a estrutura clássica de compiladores, utili
 
   * **Python 3.x** instalado.
   * **Google Chrome** instalado.
+  
+### Passos Iniciais
 
+Faça o Download do projeto para ser executado no VsCode:
+1.  Abra o VsCode;
+2.  Acesse o terminal.
+   ```
+Ctrl+Shift+'
+```
+ 
+ Digite:
+```bash
+git clone https://github.com/Socrates-F/DSL-QA-Selenium.git
+```
+Para clonar o repositório localmente.
+
+3.  Para visualizar as pastas no explorer basta:
+  ```bash
+code .
+```
+
+4.  Entre na pasta do projeto:
+```bash
+cd DSL-QA-Selenium
+```
+ 
 ### Instalação das Dependências
 
 Execute o comando abaixo para instalar o runtime do ANTLR e o Selenium:
@@ -85,12 +110,6 @@ python src/mainTests.py
 ### Executando o Teste Gerado
 
 O arquivo gerado (`saida_selenium.py`) é um script Python autônomo. Ele permite rodar todos os testes ou um teste específico via linha de comando.
-
-Para rodar **todos** os testes definidos na DSL:
-
-```bash
-python src/saida_selenium.py all
-```
 
 Para rodar **um teste específico** (pelo nome definido na DSL):
 
